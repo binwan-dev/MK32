@@ -26,12 +26,12 @@
 #define DEBOUNCE 4 //debounce time in ms
 
 //Define matrix
-#define KEYPADS 2 // intended in order to create a Multiple keypad split boards
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 6 // For split keyboards, define columns for one side only.
+#define KEYPADS 1 // intended in order to create a Multiple keypad split boards
+#define MATRIX_ROWS 13
+#define MATRIX_COLS 8 // For split keyboards, define columns for one side only.
 
 #define NKRO // does not work on Android and iOS!,  we can get 18KRO on those
-#define LAYERS 3 // number of layers defined
+#define LAYERS 1 // number of layers defined
 
 // Select diode direction
 #define COL2ROW
